@@ -77,6 +77,11 @@ const bestRetirementPlaces = [
 let retirementTBody = document.querySelector("#retirementTBody");
 console.log(retirementTBody);
 
+const retirementDropDown = document.querySelector("#retirementDropDown");
+
+const retire =  document.createElement("tr");
+
+
 
 for (const place of bestRetirementPlaces) {
 
